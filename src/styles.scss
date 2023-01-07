@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav {
+  border-bottom: 2px solid #eee;
+  padding: 16px;
+}
+
+button {
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.list-item-data {
+  flex: 1;
+}
+
+.new-message-form {
+  padding: 16px 0;
+  display: flex;
+}
+
+.new-message-form input {
+  flex: 8;
+}
+
+.new-message-form button {
+  flex: 1;
+}
+
+.error-message {
+  background-color: #ffccbb;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.full-width {
+  display: block;
+  width: 100%;
+}
+
+.space-before {
+  margin-top: 16px;
+}
+
+.space-after {
+  margin-bottom: 16px;
+}
